@@ -1,0 +1,55 @@
+/* Nav bar <START> */
+.NavBar {
+  display: flex;
+  justify-content: space-around;
+  flex: 1;
+  font-family: ProximaNovaBold;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.NavBar #name {
+  width: 50%;
+  color: #3885ec;
+  font-size: 36px;
+  font-family: ProximaNovaBold;
+}
+
+.NavBar p {
+  font-family: ProximaNovaBold;
+  font-size: 24px;
+}
+/* Nav bar <END> */
+
+/* UserInfo <START> */
+
+.UserInfo {
+  padding: 60px;
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  background-image: url("../images/image02.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.UserInfo p {
+  font-size: 60px;
+  
+}
+.userImage img {
+  height: 630px;
+  width: 900px;
+}
+
+.greetings {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  margin-left: 40px;
+}
+
+#greetings-p {
+  margin-top: 80px;
+}
+
+/* UserInfo <END> */
