@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+import AugmentedReality from './ProjectCategories/AugmentReality';
+import Modelling from './ProjectCategories/Modelling';
+import Programming from './ProjectCategories/Programming';
 
 class Projects extends Component {
     constructor(props) {
@@ -7,7 +10,11 @@ class Projects extends Component {
     }
     render() { 
         return ( 
-            <h1>Projects</h1>
+            <div className="Projects">
+                <AugmentedReality/>
+                <Modelling/>
+                <Programming/>
+            </div>
          );
     }
 }

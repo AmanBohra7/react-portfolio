@@ -1,0 +1,33 @@
+.ProjectTab {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  /* border: 2px solid red; */
+  margin: 10px;
+}
+
+.textInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.textInfo p {
+  font-size: 32px;
+  margin-top: 30px;
+  font-family: ProximaNovaReguler;
+}
+
+.textInfo h1 {
+  font-size: 70px;
+}
+
+.textInfo button {
+  font-size: 20px;
+  margin-top: 20px;
+  padding: 15px 50px 15px 50px;
+  border: 2px solid rgb(70, 140, 163);
+  background-color: white;
+}

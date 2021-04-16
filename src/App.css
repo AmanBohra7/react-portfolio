@@ -3,6 +3,7 @@
   src: url('../src/fonts/ProximaNovaBold.otf');
 }
 
-.App{
-  /* padding: 10px; */
+@font-face {
+  font-family: ProximaNovaReguler;
+  src: url('../src/fonts/ProximaNova-Regular.otf');
 }

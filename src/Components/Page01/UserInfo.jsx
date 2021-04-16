@@ -4,7 +4,7 @@ import image01 from '../Page01/images/image01.png';
 
 class UserInfo extends Component {
   constructor(props) {
-    super(props);
+    super(props); 
     this.state = {};
   }
   render() {
