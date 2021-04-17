@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import AugmentedReality from './ProjectCategories/AugmentReality';
 import Modelling from './ProjectCategories/Modelling';
 import Programming from './ProjectCategories/Programming';
+import './ProjectCategories/Projects.css'
 
 class Projects extends Component {
     constructor(props) {

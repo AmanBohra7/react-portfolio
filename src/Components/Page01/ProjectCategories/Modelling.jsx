@@ -1,6 +1,7 @@
 import React, { Component } from "react";
-import ARImage from "../images/AR.png";
+import ModellerImage from "../images/project02.jpg";
 import './Projects.css';
+import './css/Models.css';
 
 class Modelling extends Component {
   constructor(props) {
@@ -22,7 +23,7 @@ class Modelling extends Component {
           <button>See more</button>
         </div>
         <div className="ModelsImage">
-          <img src={ARImage} />
+          <img src={ModellerImage} />
         </div>
       </div>
     );
