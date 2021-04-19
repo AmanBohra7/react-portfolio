@@ -9,6 +9,7 @@ class Testimonial extends Component {
   render() {
     return (
       <div className="TestimonialDiv">
+        <h1 id="TestimoinalHead">Testimonial</h1>
         <div className="TestimonialCards">
           <h1>"</h1>
           <p>
@@ -21,7 +22,7 @@ class Testimonial extends Component {
             culpa qui officia deserunt mollit anim id est laborum.
           </p>
         </div>
-        <div className="TestimonialCards middleOne">
+        <div className="TestimonialCards " id="middleOne"> 
           <h1>"</h1>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
